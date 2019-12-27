@@ -1,0 +1,37 @@
+p, a, h1, h2, h3 {
+    font-family: 'Quicksand', sans-serif;
+}
+
+.centered {
+    text-align: center;
+}
+
+.jumbotron-fluid {
+    color: #ffffff;
+    background: url(../images/jumbo-background.png) center no-repeat;
+    height: 14em;
+}
+
+.jumbotron-fluid h1 {
+    text-align: center;
+}
+
+.jumbotron-fluid p {
+    text-align: center;
+}
+
+.nav a {
+    color: white;
+}
+
+.float-left {
+    float: left;
+}
+
+.float-right {
+    float: right;
+}
+
+.nav-right {
+    float: right;
+}
