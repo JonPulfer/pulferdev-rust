@@ -38,6 +38,113 @@ pub fn get_content(page_name: String) -> Option<String> {
         <script type=\"text/javascript\" src=\"https://www.vesselfinder.com/aismap.js\"></script>
         </div>
         </div>")),
+        (String::from("tech"), String::from("<div class=\"container-fluid\">
+                    <div class=\"row\">
+                        <div class=\"col centered\">
+                            <p>
+                                I originally qualified as a wooden boat builder and had no plans to follow a career in
+                                technology. This all changed when I found that the luxury goods market was collapsing
+                                and boats definitely fell into this market at the time.
+                            </p>
+                            <p>
+                                I had been messing around with various computer based things from an early age and so
+                                decided to try and make a living from it. I started a course in computer science but
+                                only managed to complete the first year before life pressed me to get earning. I
+                                registered with an agency and started a temporary position at Jeyes in Thetford, UK.
+                            </p>
+                            <p>
+                                I was really lucky to get that position as my first one and the team there were really
+                                supportive. I got involved in all I could, learning as much as I was able to absorb. It
+                                was a great time for me and I ended up moving from a temporary contract to a permanent one.
+                            </p>
+                            <p>
+                                Anyway, enough of my origin story, here are some of the things I'm messing around with
+                                at the moment...
+                            </p>
+                        </div>
+                    </div>
+                    <div class=\"row\">
+                        <div class=\"col centered\">
+                            <h1>Rust</h1>
+                        </div>
+                        <div class=\"col centered\">
+                            <p>
+                                In the last few years I have been developing more systems using the Rust language. For
+                                a lot of the systems I work on, it's a great fit and I really enjoy writing code using it.
+                            </p>
+                            <p>
+                                More recently I have been looking at both WASM and embedded systems and Rust is proving
+                                to be a really nice fit here too.
+                            </p>
+                        </div>
+                    </div>
+                    <div class=\"row\">
+                        <div class=\"col centered\">
+                            <p>
+                                I started writing Go programs fairly early on in it's existence and really enjoyed the
+                                simple yet productive nature of the language. I still appreciate this and I find it
+                                compliments Rust really well since where one starts being awkward the other picks up.
+                            </p>
+                            <p>
+                                I mainly use Go when I'm interacting with multiple API services or the system doesn't
+                                involve very loosely defined data objects.
+                            </p>
+                        </div>
+                        <div class=\"col centered\">
+                            <h1>Go</h1>
+                        </div>
+                    </div>
+                    <div class=\"row\">
+                        <div class=\"col centered\">
+                            <h1>Robotics</h1>
+                        </div>
+                        <div class=\"col centered\">
+                            <p>
+                                I'm currently researching building a battle robot as a team effort involving a few
+                                friends. I am hoping that I can connect with a local high school to get a group together
+                                to design, build and compete the robot.
+                            </p>
+                        </div>
+                    </div>
+                </div>")),
+        (String::from("sports"), String::from("<div class=\"container-fluid\">
+                    <p class=\"centered\">
+                        I enjoy most sports and have competed in a few different ones both regionally and nationally.
+                    </p>
+                    <div class=\"row\">
+                        <div class=\"col centered\">
+
+                            <img src=\"/static/images/phantom_going_over.png\" alt=\"Phantom going over\">
+                        </div>
+                        <div class=\"col centered\">
+                        <h1>Dinghy sailing</h1>
+                            <p>
+                                Sailing is a major passion of mine and for a number of years I have raced a
+                                <a href=\"https://phantomclass.org.uk\">Phantom dinghy</a>.
+    </p>
+        <p>
+        This is a fast single handed hiking dinghy. It's a real handful and has a huge grin
+    factor on a reach. It's also seems to have a fairly vindictive nature and has made
+    several attempts to drown and generally injure me. Definitely demands respect and seems
+    to get jealous easily when time and attention are lacking ...
+        </p>
+        </div>
+        </div>
+        <div class=\"row\">
+        <div class=\"col centered\">
+        <h1>Cycling</h1>
+        <p>
+        As a teen I joined my father and brother riding bikes. I raced in a few different
+    disciplines (grass, time-trial and later road-racing) and have also ridden some interesting
+    mountain passes.
+        </p>
+        </div>
+        <div class=\"col centered\">
+
+        <img src=\"/static/images/cycling_last_ramp_galibier.png\" alt=\"cycling up the last ramp of the galibier\">
+        </div>
+        </div>
+        </div>")),
         (String::from("about"), String::from("<p class=\"centered\">
             I'm a distributed systems programmer (predominantly Rust and Go) living in Ipswich and currently commuting into London.
             Although this does mean I travel more than some, it enables me to work with some really interesting
