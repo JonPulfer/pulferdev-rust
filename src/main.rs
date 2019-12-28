@@ -26,6 +26,10 @@ fn main() {
     // return the favicon from the static location.
     let favicon = warp::path("favicon.ico").and(warp::fs::file("./static/favicon/favicon.ico"));
 
+    // GET /sitemap.xml
+    // return the sitemap from the static location.
+    let sitemap = warp::path("sitemap.xml").and(warp::fs::file("./static/sitemap.xml"));
+
     // GET /{page_name}
     // This uses the base template and populates it with the content pertinent to the
     // requested page.
@@ -43,7 +47,7 @@ fn main() {
         })
         .with(&with_html);
 
-    let routes = web_static.or(favicon).or(pages).or(index);
+    let routes = web_static.or(favicon).or(sitemap).or(pages).or(index);
 
     warp::serve(routes).run(([127, 0, 0, 1], 8081));
 }
