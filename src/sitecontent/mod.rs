@@ -6,7 +6,7 @@ pub fn get_content(page_name: String) -> Option<String> {
         (String::from("afrita"), String::from("<div class=\"container-fluid\">
         <div class=\"row\">
         <div class=\"col centered\">
-        <img src=\"/static/images/afrita.png\" alt=\"Afrita sailing in the river Orwell\">
+        <img src=\"/static/images/afrita.png\" alt=\"Afrita sailing in the river Orwell - Jonathan Pulfer\">
         <p><a href=\"http://co32.org\">Afrita - Contessa 32</a></p>
         <ul class=\"list-unstyled\">
         <li>Length (LOA): 32 ft / 9.75m</li>
@@ -114,7 +114,7 @@ pub fn get_content(page_name: String) -> Option<String> {
                     <div class=\"row\">
                         <div class=\"col centered\">
 
-                            <img src=\"/static/images/phantom_going_over.png\" alt=\"Phantom going over\">
+                            <img src=\"/static/images/phantom_going_over.png\" alt=\"Phantom dinghy starting to capsize - Jonathan Pulfer\">
                         </div>
                         <div class=\"col centered\">
                         <h1>Dinghy sailing</h1>
@@ -141,10 +141,95 @@ pub fn get_content(page_name: String) -> Option<String> {
         </div>
         <div class=\"col centered\">
 
-        <img src=\"/static/images/cycling_last_ramp_galibier.png\" alt=\"cycling up the last ramp of the galibier\">
+        <img src=\"/static/images/cycling_last_ramp_galibier.png\" alt=\"Jonathan Pulfer cycling up the last ramp of the galibier\">
         </div>
         </div>
         </div>")),
+        (String::from("crafts"), String::from("<div class=\"container-fluid\">
+                    <p class=\"centered\">
+                        I have been lucky to have been exposed to lots of interesting things of the years. Some of these
+                        I have continued with and enjoy spending time learning and creating things.
+                    </p>
+                    <div class=\"row centered\">
+                        <div class=\"col\">
+                            <img src=\"/static/images/self_portrait.png\" alt=\"self portrait in acrylic by Jonathan Pulfer\">
+                        </div>
+                        <div class=\"col\">
+                            <h1>Painting</h1>
+                            <p>
+                                Both my mother and maternal grandmother have enjoyed painting and they have helped me
+                                develop without forcing me into a particular style. Having tried various mediums I settled
+                                on acrylics because I like the flexibility and also the rapid progress that can be made.
+                            </p>
+                            <p>
+                                When I showed my first self portrait to a friend, he remarked that it reminded him of the
+                                faces on the Thomas the Tank engine program. Not quite what I was expecting but perhaps it
+                                triggered a happy memory for him.
+                            </p>
+                        </div>
+                    </div>
+                    <div class=\"row centered\">
+                        <div class=\"col\">
+                        <p>
+                            I particularly like painting landscapes and trying to capture those elusive light effects that
+                            the human eye is able to perceive better than a camera lens.
+                        </p>
+                        </div>
+                        <div class=\"col\">
+                            <img src=\"/static/images/remote_road.png\" alt=\"remote road painting by Jonathan Pulfer\">
+                        </div>
+                    </div>
+                    <div class=\"row centered\">
+                        <div class=\"col\">
+                            <img src=\"/static/images/guitar.png\" alt=\"My PRS guitar - Jonathan Pulfer\">
+                        </div>
+                        <div class=\"col\">
+                            <h1>Music</h1>
+                            <p>
+                                Another passion that has been heavily influenced by people around me has been my love of
+                                music. I was fortunate as a youngster to be introduced to various styles of music which
+                                has given me a really broad catalogue of styles I drift through depending on how I feel.
+                            </p>
+                            <p>
+                                I also tried to play various instruments as a child including oboe and piano before I
+                                finally picked up a guitar. It was the first instrument I really felt comfortable with
+                                and so I continued with it. My brother also enjoyed the guitar and we were lucky to
+                                find an amazing local session musician (Jim Knights) who also provided private lessons.
+                                We spent many years enjoying lessons together until my brothers ability left me behind
+                                and we took lessons separately.
+                            </p>
+                        </div>
+                    </div>
+                    <div class=\"row centered\">
+                        <div class=\"col\">
+                            <h1>Knitting</h1>
+                            <p>
+                                In recent years I have been slowly picking up knitting and I really enjoy the relaxing
+                                nature of this skill. I'm still in the early stages but I did manage to complete a simple
+                                hat that actually fits and keeps my head pretty warm!
+                            </p>
+                            <p>
+                                I have plans to try a jumper next before working up to a fisherman gansey in a local
+                                pattern.
+                            </p>
+                        </div>
+                        <div class=\"col\">
+                            <img src=\"/static/images/hat.png\" alt=\"Knitted hat by Jonathan Pulfer\">
+                        </div>
+                    </div>
+                    <div class=\"row centered\">
+                        <div class=\"col\">
+                        <h1>Couture</h1>
+                        <p>
+                            Another interest that I have picked up is making garments using a sewing machine. One of the
+                            many talents my maternal grandmother has which she also enjoyed a successful career doing was
+                            dress design. I have learned a lot from her over the years and enjoy making interesting clothes
+                            for myself and friends.
+                        </p>
+                        </div>
+                    </div>
+                </div>")),
+        (String::from("travel"), String::from("<p>I am working on a vue.js based version of my travel info which will here soon!</p>")),
         (String::from("about"), String::from("<p class=\"centered\">
             I'm a distributed systems programmer (predominantly Rust and Go) living in Ipswich and currently commuting into London.
             Although this does mean I travel more than some, it enables me to work with some really interesting
