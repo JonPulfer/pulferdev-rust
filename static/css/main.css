@@ -8,7 +8,7 @@ p, a, h1, h2, h3, li {
 
 .jumbotron-fluid {
     color: #ffffff;
-    background: url(../images/jumbo-background.png) center no-repeat;
+    background: url(/static/images/jumbo-background.png) center no-repeat;
     height: 14em;
 }
 

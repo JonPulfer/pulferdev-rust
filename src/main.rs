@@ -4,6 +4,7 @@ extern crate yarte;
 
 use warp::{http::status::StatusCode, http::Response, Filter};
 use yarte::Template;
+use std::env;
 
 mod sitecontent;
 
@@ -49,7 +50,18 @@ fn main() {
 
     let routes = web_static.or(favicon).or(sitemap).or(pages).or(index);
 
-    warp::serve(routes).run(([127, 0, 0, 1], 8081));
+    let listen_port = env::var("PORT");
+    match listen_port {
+        Ok(suggested_port) => {
+            println!("listening on {}", &suggested_port);
+            let port: u16 = suggested_port.parse().unwrap();
+            warp::serve(routes).run(([0, 0, 0, 0], port));
+        }
+        Err(_) => {
+            println!("listening on 8081");
+            warp::serve(routes).run(([0, 0, 0, 0], 8081));
+        }
+    }
 }
 
 #[derive(Template)]
