@@ -65,9 +65,10 @@ pub fn get_content(page_name: String) -> Option<String> {
                     </div>
                     <div class=\"row\">
                         <div class=\"col centered\">
-                            <h1>Rust</h1>
+                            <img src=\"/static/images/rustacean-orig-noshadow.png\" alt=\"Rustacean ferris\">
                         </div>
                         <div class=\"col centered\">
+                            <h1>Rust</h1>
                             <p>
                                 In the last few years I have been developing more systems using the Rust language. For
                                 a lot of the systems I work on, it's a great fit and I really enjoy writing code using it.
@@ -80,6 +81,7 @@ pub fn get_content(page_name: String) -> Option<String> {
                     </div>
                     <div class=\"row\">
                         <div class=\"col centered\">
+                            <h1>Go</h1>
                             <p>
                                 I started writing Go programs fairly early on in it's existence and really enjoyed the
                                 simple yet productive nature of the language. I still appreciate this and I find it
@@ -91,7 +93,7 @@ pub fn get_content(page_name: String) -> Option<String> {
                             </p>
                         </div>
                         <div class=\"col centered\">
-                            <h1>Go</h1>
+                            <img src=\"/static/images/gophercolor.png\" alt=\"Gopher mascot\">
                         </div>
                     </div>
                     <div class=\"row\">
