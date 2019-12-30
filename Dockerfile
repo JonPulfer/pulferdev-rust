@@ -5,13 +5,14 @@ COPY ./src ./src
 COPY ./Cargo.toml ./Cargo.toml
 COPY ./static ./static
 COPY ./templates ./templates
+COPY ./content ./content
 
 RUN apt-get update && apt-get install -y clang
 
 RUN cargo build --release
 
 # our final base
-FROM debian:jessie-slim
+FROM debian:buster-slim
 
 # copy the build artifact from the build stage
 COPY --from=build /target/release/pulfer-dev .
