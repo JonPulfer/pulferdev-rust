@@ -24,6 +24,10 @@ pub fn get_content(page_name: String) -> Option<String> {
             include_str!("../../content/travel.html").to_string(),
         ),
         (
+            String::from("exploring"),
+            include_str!("../../content/exploring.html").to_string(),
+        ),
+        (
             String::from("about"),
             include_str!("../../content/about.html").to_string(),
         ),
