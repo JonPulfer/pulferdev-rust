@@ -42,7 +42,7 @@ fn main() {
                 Some(content) => Response::builder().body(content).unwrap(),
                 None => Response::builder()
                     .status(StatusCode::NOT_FOUND)
-                    .body(String::from("not found"))
+                    .body(String::from("page not found"))
                     .unwrap(),
             }
         })
