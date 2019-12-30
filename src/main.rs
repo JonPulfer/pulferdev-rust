@@ -2,9 +2,9 @@ extern crate env_logger;
 extern crate warp;
 extern crate yarte;
 
+use std::env;
 use warp::{http::status::StatusCode, http::Response, Filter};
 use yarte::Template;
-use std::env;
 
 mod sitecontent;
 
@@ -48,6 +48,7 @@ fn main() {
         })
         .with(&with_html);
 
+    // Build the route tree using the filters.
     let routes = web_static.or(favicon).or(sitemap).or(pages).or(index);
 
     let listen_port = env::var("PORT");
