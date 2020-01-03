@@ -1,5 +1,15 @@
-p, a, h1, h2, h3, li {
+p, h1, h2, h3, li {
     font-family: 'Quicksand', sans-serif;
+    color: aliceblue;
+}
+
+a {
+    font-family: 'Quicksand', sans-serif;
+    color: deepskyblue;
+}
+
+body {
+    background: darkslategray;
 }
 
 .centered {
