@@ -39,6 +39,10 @@ pub fn get_content(page_name: String) -> Option<String> {
             String::from("sidelines"),
             include_str!("../../content/sidelines.html").to_string(),
         ),
+        (
+            String::from("cv"),
+            include_str!("../../content/cv.html").to_string(),
+        ),
     ]
     .iter()
     .cloned()
