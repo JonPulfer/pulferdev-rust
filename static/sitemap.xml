@@ -6,7 +6,7 @@
 
         <loc>https://pulfer.dev/</loc>
 
-        <lastmod>2019-12-28</lastmod>
+        <lastmod>2020-10-23</lastmod>
 
         <changefreq>monthly</changefreq>
 
@@ -18,7 +18,7 @@
 
         <loc>https://pulfer.dev/crafts</loc>
 
-        <lastmod>2019-12-28</lastmod>
+        <lastmod>2020-10-23</lastmod>
 
     </url>
 
@@ -26,7 +26,7 @@
 
         <loc>https://pulfer.dev/afrita</loc>
 
-        <lastmod>2019-12-28</lastmod>
+        <lastmod>2020-10-23</lastmod>
 
         <changefreq>weekly</changefreq>
 
@@ -36,7 +36,7 @@
 
         <loc>https://pulfer.dev/travel</loc>
 
-        <lastmod>2019-12-28</lastmod>
+        <lastmod>2020-10-23</lastmod>
 
     </url>
 
@@ -44,7 +44,7 @@
 
         <loc>https://pulfer.dev/tech</loc>
 
-        <lastmod>2019-12-28</lastmod>
+        <lastmod>2020-10-23</lastmod>
 
     </url>
 
@@ -52,7 +52,7 @@
 
         <loc>https://pulfer.dev/exploring</loc>
 
-        <lastmod>2019-12-30</lastmod>
+        <lastmod>2020-10-23</lastmod>
 
     </url>
 
@@ -60,7 +60,7 @@
 
         <loc>https://pulfer.dev/petrol</loc>
 
-        <lastmod>2019-12-30</lastmod>
+        <lastmod>2020-10-23</lastmod>
 
     </url>
 
@@ -68,7 +68,15 @@
 
         <loc>https://pulfer.dev/sports</loc>
 
-        <lastmod>2019-12-28</lastmod>
+        <lastmod>2020-10-23</lastmod>
+
+    </url>
+
+    <url>
+
+        <loc>https://pulfer.dev/sidelines</loc>
+
+        <lastmod>2020-10-23</lastmod>
 
     </url>
 

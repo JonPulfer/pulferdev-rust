@@ -1,5 +1,5 @@
 # Use a build image to create the binary to run
-FROM rust:1.44 as build
+FROM rust:1.47 as build
 
 COPY ./src ./src
 COPY ./Cargo.toml ./Cargo.toml
