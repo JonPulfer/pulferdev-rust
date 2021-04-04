@@ -18,7 +18,7 @@ body {
 
 .jumbotron-fluid {
     color: #ffffff;
-    background: url(/static/images/jumbo-background.png) center no-repeat;
+    background: url(/static/images/jumbo-background.jpg) center no-repeat;
     height: 14em;
 }
 
