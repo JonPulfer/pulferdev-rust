@@ -9,7 +9,20 @@ a {
 }
 
 body {
-    background: darkslategray;
+    background: #2f3f4f;
+}
+
+.container {
+    background: #2f4f3f;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding: 0px;
+}
+
+.content {
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 5px;
 }
 
 .centered {
